@@ -30,6 +30,7 @@ namespace DevFitness.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(UserProfile));
+            //services.AddAutoMapper(typeof(MealProfile));
 
             var connectionString = Configuration.GetConnectionString("DevFitnessCs");
 
